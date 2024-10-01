@@ -1,0 +1,98 @@
+.modernLuxuryVillaContainer {
+  width: 100%;
+  /* padding: rem(50px 140px); */
+  gap: rem(80px);
+  margin: rem(50px auto);
+  max-width: fit-content;
+
+  @media (max-width: rem(1300px)) {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  @media (max-width: rem(900px)) {
+    padding: rem(50px);
+    gap: rem(50px);
+  }
+
+  @media (max-width: rem(600px)) {
+    padding: rem(20px);
+    gap: rem(20px);
+  }
+}
+
+.details {
+  max-width: rem(443px);
+}
+
+.heading {
+  font-size: rem(38px);
+}
+
+.subHeading {
+  font-size: rem(28px);
+}
+
+.teamCard {
+  position: relative;
+}
+
+.teamCardDetails {
+  position: absolute;
+  width: rem(240px);
+  bottom: rem(26px);
+  background-color: white;
+  padding: rem(10px 50px);
+
+  @media (max-width: rem(900px)) {
+    width: rem(200px);
+    bottom: rem(20px);
+    padding: rem(10px 20px);
+  }
+
+  @media (max-width: rem(560px)) {
+    width: rem(150px);
+    bottom: rem(10px);
+    padding: rem(5px 10px);
+  }
+
+}
+
+.teamCardDetailsHeading {
+  font-size: rem(22px);
+}
+
+.teamCardDetailsSubHeading {
+  font-size: rem(14px);
+}
+
+.formStyle {
+  max-width: rem(382px);
+  gap: rem(25px);
+
+  @media (max-width: rem(600px)) {
+    gap: rem(10px);
+  }
+}
+
+.formInputStyle {
+  border-bottom: rem(1px) solid #888888;
+}
+
+.teamDetailsStyle {
+  margin-top: rem(30px);
+  gap: rem(30px);
+
+  @media (max-width: rem(900px)) {
+    justify-content: center;
+  }
+
+  @media (max-width: rem(600px)) {
+    margin-top: rem(20px);
+    gap: rem(10px);
+  }
+}
+
+.input {
+  color: #888888;
+}

@@ -1,0 +1,121 @@
+.modernLuxuryVillaContainer {
+  /* padding-left: rem(130px); */
+  /* padding-right: rem(130px); */
+  margin: rem(50px auto);
+  width: 100%;
+  /* padding: rem(10px 20px); */
+  max-width: fit-content;
+  /* margin: auto; */
+
+
+  @media (max-width: rem(1360px)) {
+    padding-left: rem(80px);
+    padding-right: rem(80px);
+  }
+
+  @media (max-width: rem(600px)) {
+    padding-left: rem(10px);
+    padding-right: rem(10px);
+    margin: rem(20px 0px);
+  }
+}
+
+.residenceBox {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding-left: rem(20px);
+  padding-right: rem(20px);
+  gap: rem(40px);
+  flex-wrap: wrap;
+
+  @media (max-width: rem(1360px)) {
+    justify-content: center;
+    padding-left: rem(5px);
+    padding-right: rem(5px);
+  }
+}
+
+.details {
+  max-width: rem(445px);
+}
+
+.heading {
+  font-size: rem(38px);
+}
+
+.subHeading {
+  font-size: rem(16px);
+}
+
+.propertyHighlightsBox {
+  width: 100%;
+  margin-top: rem(43px);
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: auto;
+
+  @media (max-width: rem(930px)) {
+    margin-top: rem(30px);
+    justify-content: center;
+  }
+}
+
+.propertyBox {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: rem(80px);
+  padding-left: rem(30px);
+  padding-right: rem(30px);
+  flex-wrap: wrap;
+  gap: rem(20px);
+
+  @media (max-width: rem(930px)) {
+    margin-top: rem(20px);
+    padding-left: rem(20px);
+    padding-right: rem(20px);
+  }
+}
+
+.propertyHeading {
+  font-size: rem(38px);
+}
+
+.propertySubHeading {
+  font-size: rem(16px);
+  max-width: rem(560px);
+}
+
+.viewCard {
+  position: relative;
+}
+
+.viewCardDetails {
+  position: absolute;
+  width: rem(308px);
+  bottom: rem(16px);
+  background-color: white;
+  padding: rem(17px 41px);
+  /* left: rem(112px); */
+}
+
+.viewCardDetailsHeading {
+  font-size: rem(22px);
+}
+
+.viewCardDetailsSubHeading {
+  font-size: rem(14px);
+}
+
+.detailsStyle {
+  width: rem(200px);
+
+  @media (max-width: rem(600px)) {
+    width: rem(130px);
+  }
+}
+
+.detailsTextStyle {
+  color: #888888;
+}

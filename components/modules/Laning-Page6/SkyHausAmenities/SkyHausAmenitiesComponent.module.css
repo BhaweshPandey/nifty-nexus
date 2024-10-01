@@ -1,0 +1,37 @@
+.container {
+  background-color: black;
+}
+
+.modernLuxuryVillaContainer {
+  justify-content: space-between;
+  padding: rem(50px 140px);
+  flex-wrap: wrap;
+  gap: rem(20px);
+  margin: rem(50px auto);
+  width: 100%;
+  max-width: fit-content;
+
+  @media (max-width: rem(600px)) {
+    padding: rem(20px);
+  }
+}
+
+.details {
+  max-width: rem(443px);
+}
+
+.heading {
+  font-size: rem(38px);
+}
+
+.subHeading {
+  font-size: rem(16px);
+}
+
+.featuresDetails {
+  width: rem(180px);
+
+  @media (max-width: rem(600px)) {
+    width: rem(150px);
+  }
+}
